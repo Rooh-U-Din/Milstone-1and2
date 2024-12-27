@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+.profile{
+    position:absolute;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    margin-left: 12%;
+    margin-top: 25px;
+
+}
+.first-name{
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 80px;
+}
+
+.last-name{
+    position: absolute;
+    margin-left: 28.7%;
+    margin-top: 80px;
+}
+.h-p{
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 130px;
+}
+.h-p2{
+    position: absolute;
+    margin-left: 27.6%;
+    margin-top: 130px;
+}
+.contact-bar{
+    width: 200px;
+    position: absolute;
+    margin-top: 15%;
+}
+.contact{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+.contact-i{
+    height: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.interests-bar{
+    width: 200px;
+    position: absolute;
+    margin-top: 25%;
+}
+.interests{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+#center-bar{
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -37%;
+}
+
+.about{
+    width: 200px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.Education{
+    width: 200px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.skill{
+    width: 200px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.skills-li{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #000 0% 70%,
+        #ccc 70% 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-12px;
+}
+.skills-li::before{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background: #f4f4f4;
+    border-radius: 50%;
+    z-index: 1;
+}
+.text{
+    font-size: 15px;
+    
+    color:#000;
+    position: absolute;
+    z-index: 2;
+}
+.lebel{
+    position: absolute;
+    margin-top: 40px;
+    margin-left:10px;
+    font-size: 14px;
+}
+
+
+
+.skills-li2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #000 0% 60%,
+        #ccc 60% 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-12px;
+    margin-left: 70px;
+}
+.skills-li2::before{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background: #f4f4f4;
+    border-radius: 50%;
+    z-index: 1;
+}
+.text2{
+    font-size: 15px;
+    color:#000;
+    position: absolute;
+    z-index: 2;
+}
+.lebel2{
+    position: absolute;
+    margin-top: 40px;
+    margin-left:80px;
+    font-size: 14px;
+}
+
+
+
+.skills-li3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #000 0% 40%,
+        #ccc 40% 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-12px;
+    margin-left: 140px;
+}
+.skills-li3::before{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background: #f4f4f4;
+    border-radius: 50%;
+    z-index: 1;
+}
+.text3{
+    font-size: 15px;
+    
+    color:#000;
+    position: absolute;
+    z-index: 2;
+}
+.lebel3{
+    position: absolute;
+    margin-top: 40px;
+    margin-left:120px;
+    font-size: 14px;
+}
+
+
+
+.skills-li4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #000 0% 100%,
+        #ccc 100% 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-12px;
+    margin-left: 220px;
+}
+.skills-li4::before{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background: #f4f4f4;
+    border-radius: 50%;
+    z-index: 1;
+}
+.text4{
+    font-size: 15px;
+    color:#000;
+    position: absolute;
+    z-index: 2;
+}
+.lebel4{
+    position: absolute;
+    margin-top: 40px;
+    margin-left:220px;
+    font-size: 14px;
+}
